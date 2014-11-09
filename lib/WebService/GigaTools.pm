@@ -95,7 +95,7 @@ WebService::GigaTools - A simple and fast interface to the GigaTools API
 
 =head1 DESCRIPTION
 
-The module provides a simple interface to the GigaTools API. To use this module, you must first sign up at L<http://api.gagatools.com> to receive an API key.
+The module provides a simple interface to the GigaTools API. To use this module, you must first sign up at L<http://api.gigatools.com> to receive an API key.
 
 =head1 METHODS
 

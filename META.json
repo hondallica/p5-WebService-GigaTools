@@ -61,6 +61,17 @@
       }
    },
    "release_status" : "unstable",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/hondallica/p5-WebService-GigaTools/issues"
+      },
+      "homepage" : "https://github.com/hondallica/p5-WebService-GigaTools",
+      "repository" : {
+         "type" : "git",
+         "url" : "git://github.com/hondallica/p5-WebService-GigaTools.git",
+         "web" : "https://github.com/hondallica/p5-WebService-GigaTools"
+      }
+   },
    "version" : "0.01",
    "x_authority" : "cpan:HONDALLIC"
 }
