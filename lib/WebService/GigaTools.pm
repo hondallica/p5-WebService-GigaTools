@@ -103,66 +103,66 @@ These methods usage: L<http://api.gigatools.com>
 
 =head3 gigs
 
-my $data = $gigatools->gigs;
+    my $data = $gigatools->gigs;
 
-$data = $gigatools->gigs(
-    'from_date[]' => '2013-01-01',
-    'to_date[]' => '2013-02-01',   
-);
+    $data = $gigatools->gigs(
+        'from_date[]' => '2013-01-01',
+        'to_date[]' => '2013-02-01',   
+    );
 
 =head3 city 
 
-my $data = $gigatools->city(
-    'cities[]' => 'Berlin',
-);
+    my $data = $gigatools->city(
+        'cities[]' => 'Berlin',
+    );
 
-$data = $gigatools->city(
-    'cities[]' => 'Berlin',
-    'from_date[]' => '2013-01-01',
-    'to_date[]' => '2013-02-01',   
-);
+    $data = $gigatools->city(
+        'cities[]' => 'Berlin',
+        'from_date[]' => '2013-01-01',
+        'to_date[]' => '2013-02-01',   
+    );
 
 =head3 country
 
-my $data = $gigatools->country(
-    'countries[]' => 'Japan',
-);
+    my $data = $gigatools->country(
+        'countries[]' => 'Japan',
+    );
 
-$data = $gigatools->country(
-    'countries[]' => 'Japan',
-    'from_date[]' => '2014-11-09',
-    'to_date[]' => '2014-11-15',   
-);
+    $data = $gigatools->country(
+        'countries[]' => 'Japan',
+        'from_date[]' => '2014-11-09',
+        'to_date[]' => '2014-11-15',   
+    );
 
 =head3 venue
 
-my $data = $gigatools->venue(
-    'venues[]' => 'Berghain',
-);
+    my $data = $gigatools->venue(
+        'venues[]' => 'Berghain',
+    );
 
-$data = $gigatools->venue(
-    'venues[]' => 'Berghain',
-    'from_date[]' => '2013-11-09',
-    'to_date[]' => '2014-01-15',   
-);
+    $data = $gigatools->venue(
+        'venues[]' => 'Berghain',
+        'from_date[]' => '2013-11-09',
+        'to_date[]' => '2014-01-15',   
+    );
 
 =head3 search 
 
-my $data = $gigatools->search(
-    'soundcloud_user_ids' => '1039,6251,19986369',
-);
+    my $data = $gigatools->search(
+        'soundcloud_user_ids' => '1039,6251,19986369',
+    );
 
-$data = $gigatools->search(
-    'soundcloud_username' => 'jochempaap',
-);
+    $data = $gigatools->search(
+        'soundcloud_username' => 'jochempaap',
+    );
 
-$data = $gigatools->search(
-    'twitter_username' => 'djflash4eva',
-);
+    $data = $gigatools->search(
+        'twitter_username' => 'djflash4eva',
+    );
 
-$data = $gigatools->search(
-    'mixcloud_username' => 'audioinjection',
-);
+    $data = $gigatools->search(
+        'mixcloud_username' => 'audioinjection',
+    );
 
 =head1 SEE ALSO
 
